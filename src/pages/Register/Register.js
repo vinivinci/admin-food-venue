@@ -5,7 +5,8 @@ import Input from '../../components/Input';
 import Toast from '../../components/Toast';
 import { useLoading } from '../../context/LoadingContexts';
 import foodVenueLogo from '../../images/foodVenueLogo.jpg';
-import registerImage from '../../images/loginImage.jpg'; // Substitua pela imagem que deseja utilizar como fundo
+// Background image used for the registration page
+import registerImage from '../../images/loginImage.jpg';
 import useAxiosInstance from '../../utils/axiosInstance';
 import "./Register.css";
 
