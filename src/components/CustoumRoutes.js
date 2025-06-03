@@ -3,7 +3,7 @@ import { Redirect, Route, Switch, useLocation } from 'react-router-dom';
 import AddDish from '../pages/AddDish';
 import Dashboard from '../pages/Dashboard';
 import Login from '../pages/Login/Login';
-import NotFoundPage from '../pages/NotFounderPage';
+import NotFoundPage from '../pages/NotFoundPage';
 import RestaurantProfilePage from '../pages/Profile';
 import Register from '../pages/Register/Register';
 import ReportPage from '../pages/Relatorio';
