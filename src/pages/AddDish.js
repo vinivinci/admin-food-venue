@@ -56,7 +56,7 @@ const AddDish = () => {
         if (data?.restaurante?.id === null ||
             formData?.nome === null ||
             formData?.preco === null ||
-            formData?.preco === null ||
+            formData?.descricao === null ||
             formData?.imagem === null
         ) {
             setToastMessage(
@@ -117,7 +117,7 @@ const AddDish = () => {
         if (data?.restaurante?.id === null ||
             formData?.nome === null ||
             formData?.preco === null ||
-            formData?.preco === null ||
+            formData?.descricao === null ||
             formData?.imagem === null
         ) {
             setToastMessage(
